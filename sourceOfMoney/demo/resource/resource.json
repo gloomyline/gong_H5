@@ -1,0 +1,84 @@
+{
+	"groups": [
+		{
+			"keys": "blood,star,energy,magic,fireworks_json,fire_json,sun_json,jellyfish_json",
+			"name": "preload"
+		},
+		{
+			"keys": "bg_png,leaftexiao_json,normalTree_png,silver_png,silverRain_json,leaftexiao_png",
+			"name": "moneyTree"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/particle/blood.png",
+			"type": "image",
+			"name": "blood"
+		},
+		{
+			"url": "assets/particle/star.png",
+			"type": "image",
+			"name": "star"
+		},
+		{
+			"url": "assets/particle/energy.png",
+			"type": "image",
+			"name": "energy"
+		},
+		{
+			"url": "assets/particle/magic.png",
+			"type": "image",
+			"name": "magic"
+		},
+		{
+			"url": "assets/particle/fireworks.json",
+			"type": "json",
+			"name": "fireworks_json"
+		},
+		{
+			"url": "assets/particle/fire.json",
+			"type": "json",
+			"name": "fire_json"
+		},
+		{
+			"url": "assets/particle/sun.json",
+			"type": "json",
+			"name": "sun_json"
+		},
+		{
+			"url": "assets/particle/jellyfish.json",
+			"type": "json",
+			"name": "jellyfish_json"
+		},
+		{
+			"url": "assets/particle2/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		},
+		{
+			"url": "assets/particle2/leaftexiao.json",
+			"type": "json",
+			"name": "leaftexiao_json"
+		},
+		{
+			"url": "assets/particle2/leaftexiao.png",
+			"type": "image",
+			"name": "leaftexiao_png"
+		},
+		{
+			"url": "assets/particle2/normalTree.png",
+			"type": "image",
+			"name": "normalTree_png"
+		},
+		{
+			"url": "assets/particle2/silver.png",
+			"type": "image",
+			"name": "silver_png"
+		},
+		{
+			"url": "assets/particle2/silverRain.json",
+			"type": "json",
+			"name": "silverRain_json"
+		}
+	]
+}
