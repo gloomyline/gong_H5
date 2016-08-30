@@ -1,0 +1,14 @@
+{
+    "treeInfos":[
+        {"treeLevel":"1","nextLevel":"2","product":"10000","nextProduct":"20000"},
+        {"treeLevel":"2","nextLevel":"3","product":"20000","nextProduct":"50000"},
+        {"treeLevel":"3","nextLevel":"4","product":"50000","nextProduct":"100000"},
+        {"treeLevel":"4","nextLevel":"5","product":"100000","nextProduct":"200000"},
+        {"treeLevel":"5","nextLevel":"6","product":"200000","nextProduct":"500000"},
+        {"treeLevel":"6","nextLevel":"7","product":"500000","nextProduct":"1000000"},
+        {"treeLevel":"7","nextLevel":"8","product":"1000000","nextProduct":"2000000"},
+        {"treeLevel":"8","nextLevel":"8","product":"2000000","nextProduct":"2000000"}
+    ],
+    "currentLevel":"0",
+    "treeLevelUpCondition":[300,1000,5000,50000,200000,1000000,10000000]
+}

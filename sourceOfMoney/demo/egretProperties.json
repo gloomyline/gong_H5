@@ -7,14 +7,13 @@
 		"web": 0,
 		"native": 1
 	},
-	"egret_version": "3.1.6",
+	"egret_version": "3.1.5",
 	"modules": [
 		{
 			"name": "egret"
 		},
 		{
-			"name": "particle",
-			"path": "../libsrc"
+			"name": "particle"
 		},
 		{
 			"name": "res"

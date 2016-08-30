@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="lvUpPanel" width="480" height="502" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="156d5580024"/>
+	<e:Image source="mid_png" x="-1" y="111" width="486"/>
+	<e:Image source="mid_png" x="-1" y="141" width="486"/>
+    <e:Image source="mid_png" x="-1" y="171" width="486"/>
+    <e:Image source="mid_png" x="-1" y="201" width="486"/>
+	<e:Image source="up_png" x="-11" y="0" width="504"/>
+    <e:Image source="mid_png" x="-1" y="231" width="486"/>
+    <e:Image source="mid_png" x="-1" y="261" width="486"/>
+    <e:Image source="mid_png" x="-1" y="291" width="486"/>
+    <e:Image source="mid_png" x="-1" y="321" width="486"/>
+	<e:Image source="cursor_png" x="220" y="105" height="76" width="61"/>
+    <e:Image source="mid_png" x="-1" y="351" width="486"/>
+    <e:Image source="mid_png" x="-1" y="381" width="486"/>
+    <e:Image source="mid_png" x="-1" y="411" width="486"/>
+    <e:Image source="mid_png" x="-1" y="441" width="486"/>
+	<e:Image source="down_png" x="-1" y="471" height="30" width="486"/>
+	<e:Image source="normalTreebefore_png" x="295" y="83" width="106" height="119"/>
+	<e:Image source="cursor_png" x="401" y="105" width="61" height="76"/>
+	<e:Image source="cursor_png" x="20" y="105" height="76" width="61"/>
+	<e:Image source="normalTreeafter_png" x="95" y="83" width="106" height="119"/>
+	<e:Rect width="421" height="200" x="32" y="217" fillColor="0xab915d"/>
+	<e:Group id="lvUpGroup" width="420" height="200" x="32" y="216">
+		<e:EditableText width="140" height="30" text="当前属性" x="9" y="15"/>
+		<e:EditableText width="152" height="30" text="下一级属性" x="249" y="15"/>
+		<e:Image source="cursor_png" x="184" y="74" height="76" width="61"/>
+		<e:Label text="灵树：" x="8" y="61" size="24"/>
+		<e:Label id="treeLevel" text="" x="105" y="61" width="65" height="30" size="24"/>
+		<e:Label text="灵树：" x="249" y="61" size="24"/>
+		<e:Label id="nextLevel" text="" x="337" y="61" width="65" height="30" size="24"/>
+		<e:Label text="产量：" x="8" y="150" size="24" width="87" height="31"/>
+		<e:Label id="product" text="" x="79" y="150" width="105" height="30" size="24"/>
+		<e:Label text="产量：" x="249" y="150" size="24"/>
+		<e:Label id="nextProduct" text="" x="304" y="150" width="110" height="30" size="24"/>
+	</e:Group>
+	<e:Label text="升级要求：势力达到" x="61" width="248" bottom="46" verticalAlign="middle" textAlign="center" size="24" height="30"/>
+	<e:Button id="lvUpBtn" label="升级" height="36" width="90" anchorOffsetX="45" anchorOffsetY="18" verticalCenter="241" horizontalCenter="47">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="style_default_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="24" verticalAlign="middle" textAlign="center" textColor="0xdbcccc" fontFamily="黑体"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="" x="396" y="29" width="97" enabled="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_png" source.down="close_over_png"/>
+			<e:Label horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="levelUpCondition" text="" x="316" y="429" width="124" size="24"/>
+</e:Skin>
